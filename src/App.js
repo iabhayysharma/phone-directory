@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Header from './Header.js';
 import './App.css';
-function App() {
+class App extends Component {
+  render()
+  {
+  
  let subscribers = [
       {
         id: 1,
@@ -41,5 +44,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
